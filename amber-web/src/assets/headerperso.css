@@ -1,6 +1,9 @@
 .headerperso{
     color: red;
-    font-size: 150px;
+    font-size: 100px;
+}
+span{
+    color:black
 }
 .Logo-header{
     max-width: 600px;
@@ -13,5 +16,5 @@
 }
 .footer{
     color: blue;
-    font-size: 60px;
+    font-size: 50px;
 }
