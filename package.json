@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "color-picker-menu": "^2.0.0",
+    "react-dimmer": "^1.0.7"
+  }
+}

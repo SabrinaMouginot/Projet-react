@@ -1,9 +1,17 @@
-p{
+.headerperso{
     color: red;
-    font-size: 100px;
+    font-size: 150px;
 }
-img{
+.Logo-header{
     max-width: 600px;
     width: 80%;
     border-radius: 50%;
+    box-shadow: 5px 5px 15px 5px rgba(10, 6, 36, 0.7);
+    background-color: black;
+    border-style: dashed ;
+    border-color: blanchedalmond;
+}
+.footer{
+    color: blue;
+    font-size: 60px;
 }
