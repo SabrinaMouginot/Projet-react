@@ -15,22 +15,22 @@ export default function objetsListfun() {
       alert(cequejeveux);
     }
     return (
-      <ul class="liste">
-        {objetsList.map(({ name, description, price, image }) => (
-          <ul >
-            <li> {name} </li>
-            <li> {description} </li>
-            <li> {price} </li>
-            <img src={image} class="imageCv" />
-            {/* < href={description} */}
-            <button onClick={() => handleClick(description)}>
-              description
-            </button>
-            <br></br>
-            <br></br>
-            <br></br>
-          </ul>
-        ))}
+        <ul class="liste">
+            {objetsList.map(({ name, description, price, image }) => (
+            <ul >
+                <li> {name} </li>
+                <li> {description} </li>
+                <li> {price} </li>
+                <img src={image} class="imageCv" />
+                {/* < href={description} */}
+                <button onClick={() => handleClick(description)}>
+                    description
+                </button>
+                <br></br>
+                <br></br>
+                <br></br>
             </ul>
+            ))}
+        </ul>
     )
 }
