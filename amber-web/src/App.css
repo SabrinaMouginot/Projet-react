@@ -1,3 +1,16 @@
+.liste{
+    display: flex; /**Pour aligner tous les liens**/
+    flex-wrap: wrap; /**pour que les liens ne s'entassent pas quand on réduit, ça permet de les empiler.**/
+  }
+ul {
+  list-style-type: none;
+} 
+
+button{
+  width: 150px;
+  height: 50px;
+}
+
 .App {
   text-align: center;
 }
