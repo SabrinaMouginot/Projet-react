@@ -3,27 +3,25 @@ import cv2 from '../assets/cv2.png'
 import cv3 from'../assets/cv3.png'
 
 
-
-function handleClick() {
-    alert(objetsList.description);
-}
-
 let objetsList = [
-    { name: "cv1", description: "curriculum vitae1", price: "10.50", image: cv1 },
-    { name: "cv2", description: "curriculum vitae2", price: "11.75", image: cv2 },
-    { name: "cv3", description: "curriculum vitae3", price: "11.25", image: cv3 },
+    { name: "cv1", description: "curriculum vitae1", price: "10.50€", image: cv1 },
+    { name: "cv2", description: "curriculum vitae2", price: "11.75€", image: cv2 },
+    { name: "cv3", description: "curriculum vitae3", price: "11.25€", image: cv3 },
 ]
 
 export default function objetsListfun() {
+    function handleClick(cequejeveux) {
+      alert(cequejeveux);
+    }
     return (
       <ul>
         {objetsList.map(({ name, description, price, image }) => (
           <ul>
             <li>{name}</li>
-            <a href={description} onClick={handleClick}>
-              {/* target="_blank" */}
-              <img src={image} />
-            </a>
+            <img src={image} class="imageCv"/>
+                {/* < href={description} */}
+                <button onClick={() => handleClick(description)}>description</button>
+            
             <li>{price}</li>
             <li>{description}</li>
             <br></br>
