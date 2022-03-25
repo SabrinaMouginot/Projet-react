@@ -24,7 +24,7 @@ export default function objetsListfun() {
                 <img src={image} class="imageCv" />
                 {/* < href={description} */}
                 <button onClick={() => handleClick(description)}>
-                    description
+                    DESCRIPTION
                 </button>
                 <br></br>
                 <br></br>
