@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import styled from "styled-components";
 
-// import { cloneDeep } from "lodash";
+import { cloneDeep } from "lodash";
 
 import ColorPickerMenu from "color-picker-menu";
 
@@ -20,22 +20,23 @@ export default function App() {
     "#66FF7D",
     "#66F6FF",
     "#A366FF",
-    "#FF66D9"
+    "#FF66D9",
   ]);
+
 
   const [colorPickerMenuState, setColorPickerMenuState] = useState({
     selectedColor: "#ffb703",
-    displayColorPickerMenu: false
+    displayColorPickerMenu: false,
   });
 
   const colorPickerButtonRef = useRef(null);
 
-  const handleColorChange = (color) => {
-    setColorPickerMenuState({
-      ...colorPickerMenuState,
-      selectedColor: color.hex
-    });
-  };
+    const handleColorChange = (color) => {
+      setColorPickerMenuState({
+        ...colorPickerMenuState,
+        selectedColor: color.hex
+      });
+    };
 
   const toggleColorPickerMenu = () => {
     setColorPickerMenuState({
