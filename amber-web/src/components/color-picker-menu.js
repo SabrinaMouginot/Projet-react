@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import styled from "styled-components";
 
-import { cloneDeep } from "lodash";
+// import { cloneDeep } from "lodash";
 
 import ColorPickerMenu from "color-picker-menu";
 

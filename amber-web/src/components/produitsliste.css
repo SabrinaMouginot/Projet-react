@@ -1,11 +1,11 @@
-/* .cv_icon {
+.cv_icon {
   width: 9rem;
 }
-.listProductstyle{
+.listProduitstyle{
   max-width: 1300px;
 }
 
-.listProductstyle ul {
+.listeProduitstyle ul {
  display: flex; 
  flex-wrap: wrap;
 }
@@ -21,4 +21,4 @@ li {
 
 button {
   margin: 10px;
-} */
+}

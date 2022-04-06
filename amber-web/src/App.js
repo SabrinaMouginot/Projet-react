@@ -1,11 +1,12 @@
 import Headerperso from "./components/headerperso.js";
-import Footer from "./components/footer.js";
 import logo from "./logo.svg";
 import "./App.css";
-import TableObjet from "./components/tableObject.js";
+// import ProduitListe from "./components/produitsliste.js";
+// import Choix from "./components/choix.js";
+import Footer from "./components/footer.js";
 import ColorPickerMenu from "./components/color-picker-menu.js";
-// import ProductList from "./components/productslist.js";
-// import Cart from "./components/cart.js";
+import TableObjet from "./components/tableObject.js";
+
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
       <TableObjet />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        {/* <ProductList />
-        <Cart /> */}
+        {/* <ProduitListe />
+        <Choix /> */}
       </header>
       <Footer />
     </div>
