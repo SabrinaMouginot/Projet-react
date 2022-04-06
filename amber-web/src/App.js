@@ -1,8 +1,8 @@
 import Headerperso from "./components/headerperso.js";
 import logo from "./logo.svg";
 import "./App.css";
-// import ProduitListe from "./components/produitsliste.js";
-// import Choix from "./components/choix.js";
+import ProduitListe from "./components/produitsliste.js";
+import Choix from "./components/choix.js";
 import Footer from "./components/footer.js";
 import ColorPickerMenu from "./components/color-picker-menu.js";
 import TableObjet from "./components/tableObject.js";
@@ -16,8 +16,8 @@ function App() {
       <TableObjet />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        {/* <ProduitListe />
-        <Choix /> */}
+        <ProduitListe />
+        <Choix />
       </header>
       <Footer />
     </div>
