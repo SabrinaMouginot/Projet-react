@@ -1,4 +1,5 @@
 import "./choix.js";
+import "./produitsliste.css";
 
 import cv1 from "../assets/cv1.png";
 import cv2 from "../assets/cv2.png";
@@ -10,7 +11,7 @@ function produitsListe() {
       <h2>Liste des produits</h2>
       <ul>
         <li>
-          <h3>Thème CV 1</h3>l
+          <h3>Thème CV 1</h3>
           <img src={cv1} className="cv_icon" alt="logo" />
           <button>Ajouter au panier</button>
         </li>
